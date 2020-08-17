@@ -7,7 +7,11 @@
 	},
 
 	"header-layout.desktop": {
-		"children": ["header-row#notification", "header-row#main"]
+		"children": [
+			"header-row#notification",
+			"header-row#main",
+			"header-row#menu"
+		]
 	},
 
 	"header-layout.mobile": {
@@ -29,7 +33,7 @@
 		}
 	},
 	"header-row#main-mobile": {
-		"children": ["logo", "header-spacer", "minicart", "login"],
+		"children": ["drawer", "logo", "header-spacer", "minicart", "login"],
 
 		"props": {
 			"sticky": true,
@@ -60,5 +64,12 @@
 			"text": "**Free Shipping on orders over $50**",
 			"textPosition": "CENTER"
 		}
+	},
+	"header-row#menu": {
+		"children": [
+			"header-spacer",
+			"vtex.menu@2.x:menu#categories",
+			"header-spacer"
+		]
 	}
 }
