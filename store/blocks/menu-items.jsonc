@@ -7,7 +7,7 @@
 				"text": "Major Aplliances"
 			}
 		},
-		"children": ["vtex.menu@2.x:submenu#major"]
+		"blocks": ["vtex.menu@2.x:submenu#major"]
 	},
 	"menu-item#small-appliances": {
 		"props": {
@@ -18,7 +18,7 @@
 				"text": "Small Appliances"
 			}
 		},
-		"children": ["vtex.menu@2.x:submenu#small"]
+		"blocks": ["vtex.menu@2.x:submenu#small"]
 	},
 	"menu-item#electronics": {
 		"props": {
@@ -29,7 +29,7 @@
 				"text": "Electronics"
 			}
 		},
-		"children": ["vtex.menu@2.x:submenu#electronics"]
+		"blocks": ["vtex.menu@2.x:submenu#electronics"]
 	},
 	"menu-item#refrigerators": {
 		"props": {
